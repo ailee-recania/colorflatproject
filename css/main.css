@@ -1,0 +1,121 @@
+@@ -31,6 +31,12 @@ html, body {
+ 
+.row a {
+ 	color: black;
+	border-radius: 15px;
+}
+
+.navBar a:hover { 
+    background-color: black;
+    color: white;
+ }
+ 
+ /*GREETER*/
+@@ -101,8 +107,11 @@ p.features {
+}
+ 
+ .recentWorks h1{
+	margin-top: 45px;
+	margin-top: 27px;
+ 	text-align: center;
+	color: #fff;
+	font-weight: bolder;
+	font-family: 'Bree Serif', serif;
+}
+ 
+ .recentWorks p {
+@@ -112,7 +121,7 @@ p.features {
+ .recentWorks button {
+ 	float: right;
+ 	font-size: .7em;
+	margin: 7px 10px 0 0;
+	margin: 25px 10px 50px 0;
+ }
+ 
+ .samples img {
+@@ -123,4 +132,103 @@ p.features {
+ .samples div.col-4 {
+ 	text-align: center;
+ 	padding: 20px 0 20px 0;
+} 
+}
+
+.recentWorks ul {
+	float: left;
+	margin-top: 20px;
+}
+
+.recentWorks a {
+	color: white;
+}
+
+.recentWorks a:hover { 
+    color: black;
+}
+
+/*INFO*/
+
+.info {
+	background-color: hsl(0, 2%, 89%);
+}
+
+.info img {
+	height: 200px;
+	width: 200px;
+}
+
+.info h6 {
+	font-weight: bolder;
+	font-size: 1.1em;
+}
+
+.info p {
+	font-size: .9em	;
+}
+
+.info .col-4 {
+	text-align: right;
+	padding-right: 15px;
+}
+
+.info .col-6 {
+	margin-top: 25px;
+}
+
+.info hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 2px solid rgba(0,0,0,.1);
+}
+
+/*MEET US*/
+
+.meetUs {
+	background-color: hsl(354, 53%, 58%);
+}
+
+.meetUs h1 {
+	font-weight: bolder;
+	margin-top: 28px;
+	color: #fff;
+}
+
+.meetUs img {
+	height: 180px;
+	width: 300px;
+}
+
+.meetUs .col-4 {
+	text-align: center;
+}
+
+img.icons {
+	height: 80px;
+	width: 100px;
+}
+
+.meetUs .fa {
+	color: blue;
+}
+
